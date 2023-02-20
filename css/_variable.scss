@@ -1,0 +1,20 @@
+//Variables
+// font family
+$family-font: 'Hanken Grotesk', sans-serif;
+$paragraph-size: 18px;
+// colors
+$red: hsl(0, 100%, 67%);
+$box-1: hsla(0, 100%, 67%, .05);
+$box-2: hsla(0, 100%, 67%, .03);
+$yellow: hsl(39, 100%, 56%);
+$green: hsl(166, 100%, 37%);
+$box-3: hsla(166, 100%, 37%, .15);
+$blue: hsl(234, 85%, 45%);
+$box-4: hsla(234, 85%, 45%, .1);
+$white: hsl(0, 0%, 100%);
+$pale-blue: hsl(221, 100%, 96%);// some text color
+$light-lavender: hsl(241, 100%, 89%);// shadow-c
+$btn-bg: hsl(224, 30%, 27%);
+// background
+$head-bg: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+$circle-bg: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));

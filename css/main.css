@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+/*global rules*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: white;
+}
+
+.app {
+  padding: 0 30px;
+}
+@media (min-width: 768px) {
+  .app {
+    height: calc(100vh - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .app .container {
+    justify-content: center;
+    width: 600px !important;
+    box-shadow: 5px 5px 10px #c8c7ff;
+    border-radius: 0 10px 10px 0 !important;
+  }
+  .app .container header {
+    width: 50% !important;
+    border-radius: 10px !important;
+  }
+  .app .container section {
+    width: 50% !important;
+    padding: 30px 40px !important;
+  }
+}
+.app .container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.app .container header {
+  width: 100%;
+  padding: 30px 40px;
+  border-radius: 0 0 20px 20px;
+  background-image: linear-gradient(to bottom, #7857ff, #2e2be9);
+}
+.app .container header h1 {
+  font-size: 20px;
+  color: #ebf1ff;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 500;
+  margin-bottom: 30px;
+}
+.app .container header .result-container {
+  background-image: linear-gradient(to bottom, #4e21ca, rgba(36, 33, 202, 0));
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.app .container header .result-container .current-result {
+  font-weight: 800;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.app .container header .result-container .total-result {
+  font-size: 18px;
+  color: #ebf1ff;
+  text-align: center;
+  font-weight: 500;
+}
+.app .container header h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 20px auto;
+}
+.app .container header .score-greeding {
+  text-align: center;
+  font-weight: 500;
+  color: #ebf1ff;
+  margin: 0 auto;
+}
+.app .container section {
+  padding: 30px 0;
+  border-radius: 0;
+  width: 100%;
+}
+.app .container section h2 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #303b5a;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.app .container section .display-result {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.app .container section .display-result .category {
+  width: 100%;
+  padding: 15px 15px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app .container section .display-result .category .title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.app .container section .display-result .category .title span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff5757;
+}
+.app .container section .display-result .category .personel-result {
+  font-size: 18px;
+  font-weight: 500;
+  color: #c8c7ff;
+}
+.app .container section .display-result .category .personel-result span {
+  color: #303b5a;
+}
+.app .container section .display-result .category:first-of-type {
+  background-color: rgba(255, 87, 87, 0.05);
+}
+.app .container section .display-result .category:nth-of-type(2) {
+  background-color: rgba(255, 87, 87, 0.03);
+}
+.app .container section .display-result .category:nth-of-type(3) {
+  background-color: rgba(0, 189, 145, 0.15);
+}
+.app .container section .display-result .category:last-of-type {
+  background-color: rgba(17, 37, 212, 0.1);
+}
+.app .container section .continue {
+  display: block;
+  padding: 15px 20px;
+  text-align: center;
+  width: 100%;
+  border-radius: 30px;
+  background-color: #303b5a;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 30px auto 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+  transition: .3s;
+}
+.app .container section .continue:hover {
+  background-image: linear-gradient(to bottom, #7857ff, #2e2be9);
+}
+
+/*global rules*/
+/* footer rules*/
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: #3e52a3;
+}
+
+/* footer rules*/
+
+/*# sourceMappingURL=main.css.map */
