@@ -1,5 +1,12 @@
-import results from "./data.json" assert {type: "json"};
-console.log(results.length);
+//import results from "./data.json" assert {type: "json"};
+
+// we can use this to get data from data.json or import the line above
+async function getData() {
+    const res = await fetch("./data.json");
+    const data  = await res.json();
+    return data;
+}
+const results = await getData();
 const displayResult = document.querySelector(".display-result");
 results.forEach(result => {
     let box = document.createElement("div");
@@ -13,3 +20,4 @@ results.forEach(result => {
     `;
     displayResult.appendChild(box);
 });
+
